@@ -97,6 +97,13 @@ When analyzing a system, cover these dimensions:
 - What is the balance between stability and innovation?
 - What are the evolution constraints?
 
+### Chain Context (optional)
+When analyzing a system that is part of a creation chain (a sequence of
+creating systems), additionally consider:
+- Inter-system interfaces and boundary discipline between chain members
+- Trust levels at chain connection points
+- Whether responsibilities are clearly assigned across chain members
+
 ## Output Format
 
 Always structure your analysis as:

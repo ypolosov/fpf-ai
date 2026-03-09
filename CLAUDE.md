@@ -56,3 +56,10 @@ Use `${CLAUDE_PLUGIN_ROOT}` for all paths within the plugin.
 
 - Reference files: `${CLAUDE_PLUGIN_ROOT}/reference/`
 - FPF-Spec.md: expected at `./FPF-Spec.md` in user's project root (downloaded via `/fpf-setup`)
+
+## Creation Chain (optional context)
+
+fpf-ai can serve as a thinking layer in a creation chain — a sequence of
+creating systems where each creates value for the next.
+See `${CLAUDE_PLUGIN_ROOT}/reference/creation-chain.md` for details.
+fpf-ai is fully universal — this context is informational only.
