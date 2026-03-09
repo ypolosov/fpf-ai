@@ -1,0 +1,17 @@
+{
+  "name": "fpf-ai",
+  "version": "1.0.0",
+  "description": "First Principles Framework for software engineering — systematic analysis, architecture design, reviews, and terminology using FPF as a thinking framework",
+  "author": {
+    "name": "Yuri Polosov"
+  },
+  "keywords": [
+    "first-principles",
+    "systems-engineering",
+    "architecture",
+    "analysis",
+    "design",
+    "review",
+    "fpf"
+  ]
+}

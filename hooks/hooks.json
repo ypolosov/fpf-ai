@@ -1,0 +1,13 @@
+{
+  "PreCompact": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Before compacting the conversation, extract and preserve the following FPF analysis context if present:\n\n1. **System boundaries identified** — list of components and their boundaries\n2. **Trust levels** — what was classified as Fact, Guess, or Rumor\n3. **Naming decisions** — any terminology established during the conversation\n4. **Key findings** — top architectural observations or review findings\n5. **Evolution state** — explore/exploit decisions made\n\nFormat as a concise summary block at the start of the compacted context:\n\n```\n[FPF Context Preserved]\n- Boundaries: ...\n- Trust: ...\n- Terms: ...\n- Findings: ...\n- Evolution: ...\n```\n\nOnly include sections that were actually discussed. Omit empty sections."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+FPF-Spec.md
+.DS_Store
+*.swp
+*.swo
+*~
+.claude/
